@@ -4,6 +4,8 @@ export default function Skills() {
       <h2 className="text-3xl font-bold mb-4 text-white">Skills & Tools</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-gray-200">
         <span className="bg-gray-800 px-4 py-2 rounded">Python</span>
+        <span className="bg-gray-800 px-4 py-2 rounded">Docker</span>
+        <span className="bg-gray-800 px-4 py-2 rounded">Ansible</span>
         <span className="bg-gray-800 px-4 py-2 rounded">JavaScript</span>
         <span className="bg-gray-800 px-4 py-2 rounded">Laravel</span>
         <span className="bg-gray-800 px-4 py-2 rounded">Node.js</span>
