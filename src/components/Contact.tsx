@@ -14,17 +14,17 @@ export default function Contact() {
           href="mailto:your.email@example.com"
           className="flex items-center gap-2 hover:text-white"
         >
-          <Mail size={20} /> your.email@example.com
+          <Mail size={20} /> wrkrusar@gmail.com
         </a>
         <a
-          href="https://github.com/yourgithub"
+          href="https://github.com/StrixPO"
           target="_blank"
           className="hover:text-white"
         >
           <Github size={20} />
         </a>
         <a
-          href="https://linkedin.com/in/yourprofile"
+          href="https://www.linkedin.com/in/rusar-pradhan-3545b9226/"
           target="_blank"
           className="hover:text-white"
         >

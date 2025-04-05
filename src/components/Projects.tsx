@@ -3,19 +3,28 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   const projectList = [
     {
-      title: "Laravel Admin Dashboard",
+      title: "Thyroid Meal Planner",
       description:
-        "Role-based access system with user authentication and permissions. Gave me hands-on experience with access control and basic security principles in backend design.",
-      tech: ["Laravel", "PHP", "MySQL", "Bootstrap"],
-      repoLink: "https://github.com/yourgithub/laravel-dashboard",
+        "🥗 Thyroid Glow: AI-assisted Flutter app for hypothyroid meal planning using 70K+ recipes, personalized via Flask ML API and Firebase UI.",
+      tech: ["Flutter", "Firebase", "Flask", "XGBoost"],
+      repoLink: "https://github.com/StrixPO/ThyroidGlow",
+      image: "/images/thyglow.png",
     },
     {
-      title: "Data Science Project: Customer Churn Prediction",
+      title: "Financial Distress Indicator",
       description:
-        "Built predictive model using Python. Learned importance of secure data handling, cleaning, and modeling – foundational in secure systems and cloud-based data pipelines.",
-      tech: ["Python", "Pandas", "Scikit-Learn", "Jupyter"],
-      repoLink: "https://github.com/yourgithub/churn-model",
-      image: "/images/corr_map.png", // ← place image in /public/images/
+        "📉 Financial Distress Estimator: Streamlit app predicting company financial risk with XGBoost (85% accuracy), SMOTE-balanced, fully Dockerized for deployment.",
+      tech: [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Jupyter",
+        "Xg-Boost",
+        "Streamlit",
+        "Docker",
+      ],
+      repoLink: "https://github.com/StrixPO/FinancialDIstress-XGBClassifier-",
+      image: "/images/f_distress.png", // ← place image in /public/images/
     },
   ];
 
